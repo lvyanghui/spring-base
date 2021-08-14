@@ -25,6 +25,7 @@
         <module>serviceTurbine</module>
         <module>servicePvd</module>
         <module>sofabootLearn</module>
+        <module>springbootTest</module>
     </modules>
 
 
