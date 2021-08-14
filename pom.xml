@@ -26,6 +26,7 @@
         <module>servicePvd</module>
         <module>sofabootLearn</module>
         <module>springbootTest</module>
+        <module>spring-security-demo</module>
     </modules>
 
 
