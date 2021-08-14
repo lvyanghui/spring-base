@@ -9,7 +9,22 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
+        <module>zookeeperLearn</module>
+        <module>springLearn</module>
+        <module>springSource</module>
+        <module>springbootLearn</module>
         <module>eurekaServer</module>
+        <module>eurekaServerCluster</module>
+        <module>serviceProvider</module>
+        <module>serviceConsumer</module>
+        <module>serviceZuul</module>
+        <module>configServer</module>
+        <module>configClient</module>
+        <module>serviceLink</module>
+        <module>serviceTrack</module>
+        <module>serviceTurbine</module>
+        <module>servicePvd</module>
+        <module>sofabootLearn</module>
     </modules>
 
 
