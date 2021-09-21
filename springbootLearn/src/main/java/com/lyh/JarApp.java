@@ -11,5 +11,20 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class JarApp {
     public static void main(String[] args) {
         SpringApplication.run(JarApp.class,args);
+
+        Object o = null;
+
+        try{
+            System.out.println("ClassLoader.getSystemClassLoader():" + ClassLoader.getSystemClassLoader());
+            //System.out.println("ClassLoader.getSystemClassLoader():" + SpringContextHolder);
+            System.out.println("ClassLoader.getSystemClassLoader():" + ClassLoader.getSystemClassLoader());
+            System.out.println("ClassLoader.getSystemClassLoader():" + ClassLoader.getSystemClassLoader());
+            System.out.println("ClassLoader.getSystemClassLoader():" + ClassLoader.getSystemClassLoader());
+            System.out.println("ClassLoader.getSystemClassLoader():" + ClassLoader.getSystemClassLoader());
+            System.out.println("ClassLoader.getSystemClassLoader():" + ClassLoader.getSystemClassLoader());
+            System.out.println("ClassLoader.getSystemClassLoader():" + ClassLoader.getSystemClassLoader());
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
 }
